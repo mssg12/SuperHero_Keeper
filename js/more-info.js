@@ -6,7 +6,7 @@ let title = document.getElementById('page-title');
 let heroInfo = JSON.parse(localStorage.getItem("heroInfo"));
 
 // Changing the title of the page according to the characters name
-title.innerHTML = heroInfo.name + " | SH";
+title.innerHTML = heroInfo.name + " | Super Hero";
 
 window.addEventListener("load", function () {
      // getting the favouritesCharacterIDs for displaying the appropriate button accoring to the existance of character in favourites
